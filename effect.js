@@ -162,7 +162,7 @@ function no(){
 }
 
 function back(){
-document.getElementById('no').classList.add("hide");
+    document.getElementById('no').classList.add("hide");
     document.getElementById('main').classList.remove("hide");
     document.getElementById('vid').stop();
 }
@@ -174,7 +174,7 @@ function next(){
     document.getElementById('vid').play();
     countdown();
     setTimeout(() => {
-        window.location.replace("https://system.discordpaymentbot.com/subscribe?guild=1001632179446612048");
+        window.location.replace("https://github.com/xcarrera07");
     }, 50000)
 }
 
@@ -197,4 +197,4 @@ function countdown() {
       }
     }
     tick();
-  }
+}

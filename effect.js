@@ -174,7 +174,7 @@ function next(){
     document.getElementById('vid').play();
     countdown();
     setTimeout(() => {
-        window.location.replace("https://github.com/xcarrera07");
+        window.location.replace("https://t.me/EncryptorSA");
     }, 50000)
 }
 

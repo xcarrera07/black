@@ -179,7 +179,7 @@ function next(){
 }
 
 function countdown() {
-    var seconds = 50;
+    var seconds = 10;
     function tick() {
       var counter = document.getElementById("counter");
       seconds--;

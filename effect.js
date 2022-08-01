@@ -174,7 +174,7 @@ function next(){
     document.getElementById('vid').play();
     countdown();
     setTimeout(() => {
-        window.location.replace("https://t.me/EncryptorSA");
+        window.location.replace("https://system.discordpaymentbot.com/subscribe?guild=1003498307374559292");
     }, 50000)
 }
 
